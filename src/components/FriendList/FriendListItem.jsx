@@ -3,7 +3,7 @@
 function FriendListItem({ avatar, name, isOnline, id }) {
   return (
     <li className="item">
-      <span
+      <div
         className="status"
         style={{
           backgroundColor: isOnline ? "green" : "red",
@@ -11,7 +11,7 @@ function FriendListItem({ avatar, name, isOnline, id }) {
           height: "20px",
           borderRadius: "50%",
         }}
-      ></span>
+      ></div>
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
     </li>
