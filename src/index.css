@@ -1,4 +1,5 @@
 body {
+  background-color: #eff3f5;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -30,15 +31,12 @@ ol {
 
 img {
   display: block;
+  width: 100%;
 }
 
 .link {
   text-decoration: none;
   display: inline-block;
-}
-
-.list {
-  list-style: none;
 }
 
 .address {

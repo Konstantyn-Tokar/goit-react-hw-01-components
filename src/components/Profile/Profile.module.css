@@ -1,0 +1,77 @@
+.profile {
+  margin: 40px auto;
+  width: 330px;
+  height: 410px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  background-color: white;
+  border-radius: 4px;
+}
+
+.name {
+  margin-top: 12px;
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.15;
+  text-align: center;
+  color: black;
+  letter-spacing: 0.03em;
+}
+
+.tag,
+.location {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #807d7d;
+  margin-bottom: 8px;
+}
+
+.description {
+  padding: 20px;
+}
+
+.avatar {
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgb(233, 233, 233);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.15;
+  text-align: center;
+  color: #807d7d;
+  letter-spacing: 0.03em;
+}
+
+.quantity {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.15;
+  text-align: center;
+  color: black;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}

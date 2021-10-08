@@ -1,10 +1,10 @@
-// import s from "./FriendListItem.module.css";
+import s from "./FriendListItem.module.css";
 
 function FriendListItem({ avatar, name, isOnline, id }) {
   return (
-    <li className="item">
+    <li className={s.item}>
       <div
-        className="status"
+        className={s.status}
         style={{
           backgroundColor: isOnline ? "green" : "red",
           width: "20px",
@@ -12,8 +12,8 @@ function FriendListItem({ avatar, name, isOnline, id }) {
           borderRadius: "50%",
         }}
       ></div>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
+      <img className={s.avatar} src={avatar} alt="User avatar" />
+      <p className={s.name}>{name}</p>
     </li>
   );
 }

@@ -1,0 +1,29 @@
+.avatar {
+  max-width: 100px;
+  margin: 10px;
+}
+
+.status {
+  margin: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  width: 420px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  background-color: white;
+  border-radius: 4px;
+}
+
+.name {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.15;
+  text-align: center;
+  color: black;
+  letter-spacing: 0.03em;
+}
